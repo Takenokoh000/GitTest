@@ -4,11 +4,13 @@ Git専科
 GitBash->cmd : cd <ファイルパス>
 GitBash->cmd : git init
 
-
 変更中のファイルの確認
 GirBash->cmd : git status
 赤:変更中
-緑:問題なし
+緑:保存済み
+何もなし:コミット済み
+
+
 
 
 GitBash->cmd : git init		//gitの初期化
