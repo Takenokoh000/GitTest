@@ -1,1 +1,16 @@
-Git-Senka
+Git専科
+
+リポジトリの作成
+GitBash->cmd : cd <ファイルパス>
+GitBash->cmd : git init
+
+
+変更中のファイルの確認
+GirBash->cmd : git status
+赤:変更中
+緑:問題なし
+
+
+GitBash->cmd : git init		//gitの初期化
+GitBash->cmd : git commit -m "<説明文(日本語可能)>"	//コミット
+GitBash->cmd : add <File Name>	//ファイルの追加
