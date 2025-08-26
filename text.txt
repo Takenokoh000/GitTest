@@ -28,4 +28,4 @@ GitBash->cmd : git reset HEAD	//addの取り消し
 GitBash->cmd : git reset --soft HEAD^		//直前のコミットを削除
 GitBash->cmd : git reset --hard <commit:ID>	//IDのコミットに移動
 GitBash->cmd : git diff	//変更内容の確認(あまり使わないかも)
-
+GitBash->cmd : git push origin master	//リモートリポジトリにGO
