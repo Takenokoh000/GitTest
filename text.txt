@@ -15,6 +15,9 @@ GirBash->cmd : git status
 GitBash->cmd : git init		//gitの初期化
 GitBash->cmd : git status	//ファイルの状態確認
 GitBash->cmd : add <File Name>	//1ファイルの変更保存
+GitBash->cmd : add .			//全てのファイルの変更保存
 GitBash->cmd : git commit -m "<説明文(日本語可能)>"	//プロジェクトの変更保存
+GitBash->cmd : git commit --amend	//コミットの編集
+GitBash->cmd : git reset HEAD	//addの取り消し
 GitBash->cmd : git diff	//変更内容の確認(あまり使わないかも)
 
