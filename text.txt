@@ -4,7 +4,7 @@ Git専科
 GitBash->cmd : cd <ファイルパス>
 GitBash->cmd : git init
 
-変更中のファイルの確認
+
 GirBash->cmd : git status
 赤:変更中
 緑:保存済み
@@ -12,7 +12,9 @@ GirBash->cmd : git status
 
 
 
-
 GitBash->cmd : git init		//gitの初期化
-GitBash->cmd : git commit -m "<説明文(日本語可能)>"	//コミット
-GitBash->cmd : add <File Name>	//ファイルの追加
+GitBash->cmd : git status	//ファイルの状態確認
+GitBash->cmd : add <File Name>	//1ファイルの変更保存
+GitBash->cmd : git commit -m "<説明文(日本語可能)>"	//プロジェクトの変更保存
+GitBash->cmd : git diff	//変更内容の確認(あまり使わないかも)
+
