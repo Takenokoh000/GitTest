@@ -19,5 +19,6 @@ GitBash->cmd : add .			//全てのファイルの変更保存
 GitBash->cmd : git commit -m "<説明文(日本語可能)>"	//プロジェクトの変更保存
 GitBash->cmd : git commit --amend	//コミットの編集
 GitBash->cmd : git reset HEAD	//addの取り消し
+GitBash->cmd : git reset --soft HEAD^	//直前のコミットを削除
 GitBash->cmd : git diff	//変更内容の確認(あまり使わないかも)
 
